@@ -1,0 +1,11 @@
+<Context>
+	<Resource name="jdbc/nutrition_database"
+auth="Container"
+type="javax.sql.DataSource"
+username="quentin" 
+password="quentin" 
+driverClassName="com.mysql.jdbc.Driver" 
+url="jdbc:mysql://localhost:3306/nutrition_database" 
+maxActive="15" 
+maxIdle="3"/>
+</Context>

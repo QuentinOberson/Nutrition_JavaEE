@@ -3,5 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="C:/Users/Quentin/jars/mysql-connector-java-5.1.27/mysql-connector-java-5.1.27/mysql-connector-java-5.1.27-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Quentin/jars/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Quentin/jars/javax.ejb-api-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Quentin/jars/eclipselink/jlib/eclipselink.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

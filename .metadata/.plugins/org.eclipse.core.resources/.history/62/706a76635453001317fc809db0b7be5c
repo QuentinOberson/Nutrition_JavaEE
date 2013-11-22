@@ -1,0 +1,16 @@
+import javax.ejb.Stateless;
+import business_objects.User;
+
+
+@Stateless
+public class NutritionService implements NutritionServiceInterface{
+
+	@Override
+	public void storeUser(User user)
+	{
+		
+	}
+
+	
+	
+}

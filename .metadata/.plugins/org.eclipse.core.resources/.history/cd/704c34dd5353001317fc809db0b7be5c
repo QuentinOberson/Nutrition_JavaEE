@@ -1,0 +1,17 @@
+import business_objects.User;
+
+
+public class test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		User user = new User("Martin", "Ecoffey", "m.ecoffey@gmail.com");
+		
+		
+		
+	}
+
+}

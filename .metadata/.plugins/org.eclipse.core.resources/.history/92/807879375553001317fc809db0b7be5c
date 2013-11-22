@@ -1,0 +1,10 @@
+import javax.ejb.Local;
+import business_objects.User;
+
+
+@Local
+public interface NutritionServiceInterface {
+
+	public void storeUser(User user);
+	
+}

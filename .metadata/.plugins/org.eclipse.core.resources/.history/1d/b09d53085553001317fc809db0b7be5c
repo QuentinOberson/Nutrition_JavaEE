@@ -1,0 +1,16 @@
+import javax.ejb.Stateless;
+import business_objects.User;
+
+
+@Stateful
+public class NutritionService implements NutritionServiceInterface{
+	@PersistenceContext(name = "BankPU", type = PersistenceContextType.EXTENDED)
+	EntityManager em;
+	
+	@Override
+	public void storeUser(User user)
+	{
+		
+	}
+
+}

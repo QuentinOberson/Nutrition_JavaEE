@@ -1,0 +1,47 @@
+import java.util.List;
+
+import javax.ejb.Stateful;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceContextType;
+
+import business_objects.Plate;
+import business_objects.User;
+
+
+@Stateful
+public class NutritionService implements NutritionServiceInterface{
+	@PersistenceContext(name = "", type = PersistenceContextType.EXTENDED)
+	EntityManager em;
+	
+	@Override
+	public void storeUser(User user)
+	{
+		em.persist(user);
+	}
+
+	@Override
+	public User getUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void storePlate(Plate plate, User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Plate> getAllPlateByUserId(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
