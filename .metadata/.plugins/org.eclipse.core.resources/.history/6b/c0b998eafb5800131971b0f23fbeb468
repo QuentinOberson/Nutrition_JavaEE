@@ -1,0 +1,46 @@
+package model.business.service;
+
+import static org.junit.Assert.*;
+import junit.framework.Assert;
+
+import org.junit.Test;
+
+public class UserServiceTest {
+
+	@Test
+	public void testHello() {
+		
+		UserService service = new UserService();
+		
+		String response = service.hello();
+		
+		Assert.assertEquals("Hello World!", response);
+	}
+
+	@Test
+	public void testIsRegistered() {
+		
+		UserService service = new UserService();
+		
+		//Non-existing user
+		boolean response = service.isRegistered("jojolasticot@blabla.com", "98765431");
+		
+		Assert.assertEquals(false, response);
+				
+		//Existing user
+		response = service.isRegistered("q.oberson@gmail.com", "1234");
+				
+				
+	}
+
+	@Test
+	public void testUpdateProfile() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRegisterNewUser() {
+		fail("Not yet implemented");
+	}
+
+}

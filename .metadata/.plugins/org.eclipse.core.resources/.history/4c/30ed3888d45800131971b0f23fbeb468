@@ -1,0 +1,66 @@
+package model.business.entities;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.List;
+
+
+/**
+ * The persistent class for the language database table.
+ * 
+ */
+@Entity
+public class Language implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="LANGUAGE_ID_GENERATOR" )
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="LANGUAGE_ID_GENERATOR")
+	private int id;
+
+	private String description;
+
+	//bi-directional many-to-one association to Food
+	@OneToMany(mappedBy="language")
+	private List<Food> foods;
+
+	//bi-directional many-to-one association to User
+	@OneToMany(mappedBy="language")
+	private List<User> users;
+
+	public Language() {
+	}
+
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getDescription() {
+		return this.description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public List<Food> getFoods() {
+		return this.foods;
+	}
+
+	public void setFoods(List<Food> foods) {
+		this.foods = foods;
+	}
+
+	public List<User> getUsers() {
+		return this.users;
+	}
+
+	public void setUsers(List<User> users) {
+		this.users = users;
+	}
+
+}

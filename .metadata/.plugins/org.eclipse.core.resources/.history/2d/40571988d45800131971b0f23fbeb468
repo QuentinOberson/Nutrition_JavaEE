@@ -1,0 +1,65 @@
+package model.business.entities;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the food database table.
+ * 
+ */
+@Entity
+public class Food implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="FOOD_ID_GENERATOR" )
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="FOOD_ID_GENERATOR")
+	private int id;
+
+	private String description;
+
+	@Column(name="nutritive_values")
+	private float nutritiveValues;
+
+	//bi-directional many-to-one association to Language
+	@ManyToOne
+	@JoinColumn(name="fk_language")
+	private Language language;
+
+	public Food() {
+	}
+
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getDescription() {
+		return this.description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public float getNutritiveValues() {
+		return this.nutritiveValues;
+	}
+
+	public void setNutritiveValues(float nutritiveValues) {
+		this.nutritiveValues = nutritiveValues;
+	}
+
+	public Language getLanguage() {
+		return this.language;
+	}
+
+	public void setLanguage(Language language) {
+		this.language = language;
+	}
+
+}

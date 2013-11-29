@@ -1,0 +1,14 @@
+
+public class ArrayWriterRunnable implements Runnable{
+
+	public ArrayWriterRunnable(int start)
+	{
+		
+	}
+	
+	@Override
+	public void run() {
+		
+	}
+
+}

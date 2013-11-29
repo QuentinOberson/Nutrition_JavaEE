@@ -1,0 +1,53 @@
+package model.business.entities;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the plate_to_food database table.
+ * 
+ */
+@Entity
+@Table(name="plate_to_food")
+public class PlateToFood implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private float quantity;
+
+	//bi-directional many-to-one association to Plate
+	@ManyToOne
+	private Plate plate;
+
+	//bi-directional many-to-one association to Food
+	@ManyToOne
+	private Food food;
+
+	public PlateToFood() {
+	}
+
+	public float getQuantity() {
+		return this.quantity;
+	}
+
+	public void setQuantity(float quantity) {
+		this.quantity = quantity;
+	}
+
+	public Plate getPlate() {
+		return this.plate;
+	}
+
+	public void setPlate(Plate plate) {
+		this.plate = plate;
+	}
+
+	public Food getFood() {
+		return this.food;
+	}
+
+	public void setFood(Food food) {
+		this.food = food;
+	}
+
+}

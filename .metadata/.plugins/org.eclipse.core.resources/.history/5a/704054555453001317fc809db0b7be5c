@@ -1,9 +1,0 @@
-import javax.ejb.Local;
-
-
-@Local
-public interface NutritionServiceInterface {
-
-	public void storeUser(User user);
-	
-}

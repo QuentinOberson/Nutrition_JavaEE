@@ -1,0 +1,91 @@
+package model.business.service;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceContextType;
+import javax.persistence.Query;
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+import model.business.entities.User;
+
+@Stateless
+@LocalBean
+@Path("/users")
+public class UserService {
+
+	@PersistenceContext(unitName="nutrition_service", type=PersistenceContextType.TRANSACTION)
+	EntityManager entityManager;
+	
+	@GET
+    @Produces(MediaType.APPLICATION_XML)
+    @Path("isRegistered/{email}/{password}")
+	public boolean isRegistered(@PathParam("email")String email, @PathParam("password")String password)
+	{
+		System.out.println("Method: isRegistered");//test
+		
+		try
+		{
+			//TO TRY
+			//Query q = em.createQuery("select c from Customer c where c.surname=?1");
+			//q.setParameter(1, "Claus");
+			
+			Query q = entityManager.createQuery("select u from User u where u.email ='"+email+"' and u.password = '"+password+"'");
+			User user = (User) q.getSingleResult();
+			
+			if(user.getEmail() == email && user.getPassword() == password)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
+	
+	@PUT
+    @Consumes(MediaType.APPLICATION_XML)
+	public boolean updateProfile(User user)
+	{
+		System.out.println("Method: updateProfile");//test
+		try
+		{
+			entityManager.merge(user);
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+		
+		return true;
+	}
+	
+	//saveData
+	
+	//getData
+	
+	@POST
+    @Consumes(MediaType.APPLICATION_XML)
+	public boolean registerNewUser(User user)
+	{
+		System.out.println("Method: registerNewUser");//test
+		try
+		{
+			entityManager.persist(user);
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+		
+		return true;
+	}
+	
+}

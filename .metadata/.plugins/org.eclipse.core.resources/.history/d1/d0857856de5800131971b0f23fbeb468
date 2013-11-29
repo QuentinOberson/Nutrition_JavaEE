@@ -1,0 +1,1843 @@
+package model.business.entities;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import org.eclipse.persistence.oxm.annotations.XmlInverseReference;
+
+import java.util.List;
+
+
+/**
+ * The persistent class for the food database table.
+ * 
+ */
+@Entity
+@XmlRootElement
+public class Food implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@SequenceGenerator(name="FOOD_ID_GENERATOR" )
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="FOOD_ID_GENERATOR")
+	private int id;
+
+	private float alcohol;
+
+	@Column(name="alcohol_matrix_unit")
+	private String alcoholMatrixUnit;
+
+	@Column(name="alcohol_unit")
+	private String alcoholUnit;
+
+	@Column(name="alcohol_value_type")
+	private String alcoholValueType;
+
+	@Column(name="alltrans_retinol_equivalents")
+	private float alltransRetinolEquivalents;
+
+	private float b1;
+
+	@Column(name="b1_matrix_unit")
+	private String b1MatrixUnit;
+
+	@Column(name="b1_unit")
+	private String b1Unit;
+
+	@Column(name="b1_value_type")
+	private String b1ValueType;
+
+	private float b12;
+
+	@Column(name="b12_matrix_unit")
+	private String b12MatrixUnit;
+
+	@Column(name="b12_unit")
+	private String b12Unit;
+
+	@Column(name="b12_value_type")
+	private String b12ValueType;
+
+	private float b2;
+
+	@Column(name="b2_matrix_unit")
+	private String b2MatrixUnit;
+
+	@Column(name="b2_unit")
+	private String b2Unit;
+
+	@Column(name="b2_value_type")
+	private String b2ValueType;
+
+	private float b6;
+
+	@Column(name="b6_matrix_unit")
+	private String b6MatrixUnit;
+
+	@Column(name="b6_unit")
+	private String b6Unit;
+
+	@Column(name="b6_value_type")
+	private String b6ValueType;
+
+	@Column(name="beta_carotene")
+	private float betaCarotene;
+
+	@Column(name="beta_carotene_equivalents")
+	private float betaCaroteneEquivalents;
+
+	@Column(name="beta_carotene_equivalents_matrix_unit")
+	private String betaCaroteneEquivalentsMatrixUnit;
+
+	@Column(name="beta_carotene_equivalents_unit")
+	private String betaCaroteneEquivalentsUnit;
+
+	@Column(name="beta_carotene_equivalents_value_type")
+	private String betaCaroteneEquivalentsValueType;
+
+	@Column(name="beta_carotene_matrix_unit")
+	private String betaCaroteneMatrixUnit;
+
+	@Column(name="beta_carotene_unit")
+	private String betaCaroteneUnit;
+
+	@Column(name="beta_carotene_value_type")
+	private String betaCaroteneValueType;
+
+	private float c;
+
+	@Column(name="c_matrix_unit")
+	private String cMatrixUnit;
+
+	@Column(name="c_unit")
+	private String cUnit;
+
+	@Column(name="c_value_type")
+	private String cValueType;
+
+	private float calcium;
+
+	@Column(name="calcium_matrix_unit")
+	private String calciumMatrixUnit;
+
+	@Column(name="calcium_unit")
+	private String calciumUnit;
+
+	@Column(name="calcium_value_type")
+	private String calciumValueType;
+
+	@Column(name="category_d")
+	private String categoryD;
+
+	@Column(name="category_e")
+	private String categoryE;
+
+	@Column(name="category_f")
+	private String categoryF;
+
+	@Column(name="category_i")
+	private String categoryI;
+
+	@Column(name="charbohydrate_available")
+	private float charbohydrateAvailable;
+
+	@Column(name="charbohydrate_matrix_unit")
+	private String charbohydrateMatrixUnit;
+
+	@Column(name="charbohydrate_unit")
+	private String charbohydrateUnit;
+
+	@Column(name="charbohydrate_value_type")
+	private String charbohydrateValueType;
+
+	private float chlorid;
+
+	@Column(name="chlorid_matrix_unit")
+	private String chloridMatrixUnit;
+
+	@Column(name="chlorid_unit")
+	private String chloridUnit;
+
+	@Column(name="chlorid_value_type")
+	private String chloridValueType;
+
+	private float cholesterol;
+
+	@Column(name="cholesterol_matrix_unit")
+	private String cholesterolMatrixUnit;
+
+	@Column(name="cholesterol_unit")
+	private String cholesterolUnit;
+
+	@Column(name="cholesterol_value_type")
+	private String cholesterolValueType;
+
+	private float d;
+
+	@Column(name="d_matrix_unit")
+	private String dMatrixUnit;
+
+	@Column(name="d_unit")
+	private String dUnit;
+
+	@Column(name="d_value_type")
+	private String dValueType;
+
+	@Column(name="dietary_fibre_total")
+	private float dietaryFibreTotal;
+
+	@Column(name="dietary_fibre_total_matrix_unit")
+	private String dietaryFibreTotalMatrixUnit;
+
+	@Column(name="dietary_fibre_total_unit")
+	private String dietaryFibreTotalUnit;
+
+	@Column(name="dietary_fibre_total_value_type")
+	private String dietaryFibreTotalValueType;
+
+	private float e;
+
+	@Column(name="e_matrix_unit")
+	private String eMatrixUnit;
+
+	@Column(name="e_unit")
+	private String eUnit;
+
+	@Column(name="e_value_type")
+	private String eValueType;
+
+	@Column(name="energy_kcal")
+	private float energyKcal;
+
+	@Column(name="energy_kj")
+	private float energyKj;
+
+	@Column(name="energy_matrix_unit")
+	private String energyMatrixUnit;
+
+	@Column(name="energy_unit")
+	private String energyUnit;
+
+	@Column(name="energy_value_type")
+	private String energyValueType;
+
+	@Column(name="fat_total")
+	private float fatTotal;
+
+	@Column(name="fat_total_matrix_unit")
+	private String fatTotalMatrixUnit;
+
+	@Column(name="fat_total_unit")
+	private String fatTotalUnit;
+
+	@Column(name="fat_total_value_type")
+	private String fatTotalValueType;
+
+	@Column(name="fatty_acids_total_mono_unsaturated")
+	private float fattyAcidsTotalMonoUnsaturated;
+
+	@Column(name="fatty_acids_total_mono_unsaturated_matrix_unit")
+	private String fattyAcidsTotalMonoUnsaturatedMatrixUnit;
+
+	@Column(name="fatty_acids_total_mono_unsaturated_unit")
+	private String fattyAcidsTotalMonoUnsaturatedUnit;
+
+	@Column(name="fatty_acids_total_mono_unsaturated_value_type")
+	private String fattyAcidsTotalMonoUnsaturatedValueType;
+
+	@Column(name="fatty_acids_total_poly_unsaturated")
+	private float fattyAcidsTotalPolyUnsaturated;
+
+	@Column(name="fatty_acids_total_poly_unsaturated_matrix_unit")
+	private String fattyAcidsTotalPolyUnsaturatedMatrixUnit;
+
+	@Column(name="fatty_acids_total_poly_unsaturated_unit")
+	private String fattyAcidsTotalPolyUnsaturatedUnit;
+
+	@Column(name="fatty_acids_total_poly_unsaturated_value_type")
+	private String fattyAcidsTotalPolyUnsaturatedValueType;
+
+	@Column(name="fatty_acids_total_saturated")
+	private float fattyAcidsTotalSaturated;
+
+	@Column(name="fatty_acids_total_saturated_matrix_unit")
+	private String fattyAcidsTotalSaturatedMatrixUnit;
+
+	@Column(name="fatty_acids_total_saturated_unit")
+	private String fattyAcidsTotalSaturatedUnit;
+
+	@Column(name="fatty_acids_total_saturated_value_type")
+	private String fattyAcidsTotalSaturatedValueType;
+
+	private float folate;
+
+	@Column(name="folate_matrix_unit")
+	private String folateMatrixUnit;
+
+	@Column(name="folate_unit")
+	private String folateUnit;
+
+	@Column(name="folate_value_type")
+	private String folateValueType;
+
+	@Column(name="id_swiss_fir")
+	private int idSwissFir;
+
+	@Column(name="id_v_4")
+	private int idV4;
+
+	private float iodide;
+
+	@Column(name="iodide_matrix_unit")
+	private String iodideMatrixUnit;
+
+	@Column(name="iodide_unit")
+	private String iodideUnit;
+
+	@Column(name="iodide_value_type")
+	private String iodideValueType;
+
+	@Column(name="iron_total")
+	private float ironTotal;
+
+	@Column(name="iron_total_matrix_unit")
+	private String ironTotalMatrixUnit;
+
+	@Column(name="iron_total_unit")
+	private String ironTotalUnit;
+
+	@Column(name="iron_total_value_type")
+	private String ironTotalValueType;
+
+	@Column(name="kcal_matrix_unit")
+	private String kcalMatrixUnit;
+
+	@Column(name="kcal_unit")
+	private String kcalUnit;
+
+	@Column(name="kcal_value_type")
+	private String kcalValueType;
+
+	private float magnesium;
+
+	@Column(name="magnesium_matrix_unit")
+	private String magnesiumMatrixUnit;
+
+	@Column(name="magnesium_unit")
+	private String magnesiumUnit;
+
+	@Column(name="magnesium_value_type")
+	private String magnesiumValueType;
+
+	@Column(name="name_d")
+	private String nameD;
+
+	@Column(name="name_e")
+	private String nameE;
+
+	@Column(name="name_f")
+	private String nameF;
+
+	@Column(name="name_i")
+	private String nameI;
+
+	private float niacine;
+
+	@Column(name="niacine_matrix_unit")
+	private String niacineMatrixUnit;
+
+	@Column(name="niacine_unit")
+	private String niacineUnit;
+
+	@Column(name="niacine_value_type")
+	private String niacineValueType;
+
+	@Column(name="pantothenic_acid")
+	private float pantothenicAcid;
+
+	@Column(name="pantothenic_acid_matrix_unit")
+	private String pantothenicAcidMatrixUnit;
+
+	@Column(name="pantothenic_acid_unit")
+	private String pantothenicAcidUnit;
+
+	@Column(name="pantothenic_acid_value_type")
+	private String pantothenicAcidValueType;
+
+	private float phosphor;
+
+	@Column(name="phosphor_matrix_unit")
+	private String phosphorMatrixUnit;
+
+	@Column(name="phosphor_unit")
+	private String phosphorUnit;
+
+	@Column(name="phosphor_value_type")
+	private String phosphorValueType;
+
+	private float potassium;
+
+	@Column(name="potassium_matrix_unit")
+	private String potassiumMatrixUnit;
+
+	@Column(name="potassium_unit")
+	private String potassiumUnit;
+
+	@Column(name="potassium_value_type")
+	private String potassiumValueType;
+
+	private int protein;
+
+	@Column(name="protein_matrix_unit")
+	private String proteinMatrixUnit;
+
+	@Column(name="protein_unit")
+	private String proteinUnit;
+
+	@Column(name="protein_value_type")
+	private String proteinValueType;
+
+	@Column(name="record_has_changed")
+	private String recordHasChanged;
+
+	@Column(name="retinol_matrix_unit")
+	private String retinolMatrixUnit;
+
+	@Column(name="retinol_unit")
+	private String retinolUnit;
+
+	@Column(name="retinol_value_type")
+	private String retinolValueType;
+
+	private float sodium;
+
+	@Column(name="sodium_matrix_unit")
+	private String sodiumMatrixUnit;
+
+	@Column(name="sodium_unit")
+	private String sodiumUnit;
+
+	@Column(name="sodium_value_type")
+	private String sodiumValueType;
+
+	@Column(name="specific_gravity")
+	private float specificGravity;
+
+	@Column(name="starch_matrix_unit")
+	private String starchMatrixUnit;
+
+	@Column(name="starch_total")
+	private float starchTotal;
+
+	@Column(name="starch_unit")
+	private String starchUnit;
+
+	@Column(name="starch_value_type")
+	private String starchValueType;
+
+	@Column(name="sugar_matrix_unit")
+	private String sugarMatrixUnit;
+
+	@Column(name="sugar_total")
+	private float sugarTotal;
+
+	@Column(name="sugar_unit")
+	private String sugarUnit;
+
+	@Column(name="sugar_value_type")
+	private String sugarValueType;
+
+	@Column(name="synonyms_d")
+	private String synonymsD;
+
+	@Column(name="synonyms_e")
+	private String synonymsE;
+
+	@Column(name="synonyms_f")
+	private String synonymsF;
+
+	@Column(name="synonyms_i")
+	private String synonymsI;
+
+	@Column(name="vit_a")
+	private float vitA;
+
+	@Column(name="vit_a_matrix_unit")
+	private String vitAMatrixUnit;
+
+	@Column(name="vit_a_unit")
+	private String vitAUnit;
+
+	@Column(name="vit_a_value_type")
+	private String vitAValueType;
+
+	private float water;
+
+	@Column(name="water_matrix_unit")
+	private String waterMatrixUnit;
+
+	@Column(name="water_unit")
+	private String waterUnit;
+
+	@Column(name="water_value_type")
+	private String waterValueType;
+
+	private float zinc;
+
+	@Column(name="zinc_matrix_unit")
+	private String zincMatrixUnit;
+
+	@Column(name="zinc_unit")
+	private String zincUnit;
+
+	@Column(name="zinc_value_type")
+	private String zincValueType;
+
+	//bi-directional many-to-many association to Plate
+	@ManyToMany
+	@JoinTable(
+			name="plate_to_food"
+			, joinColumns={
+				@JoinColumn(name="plate_id")
+				}
+			, inverseJoinColumns={
+				@JoinColumn(name="food_id")
+				}
+			)
+	@MapsId
+    @XmlInverseReference(mappedBy="foods")
+	private List<Plate> plates;
+
+	public Food() {
+	}
+
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public float getAlcohol() {
+		return this.alcohol;
+	}
+
+	public void setAlcohol(float alcohol) {
+		this.alcohol = alcohol;
+	}
+
+	public String getAlcoholMatrixUnit() {
+		return this.alcoholMatrixUnit;
+	}
+
+	public void setAlcoholMatrixUnit(String alcoholMatrixUnit) {
+		this.alcoholMatrixUnit = alcoholMatrixUnit;
+	}
+
+	public String getAlcoholUnit() {
+		return this.alcoholUnit;
+	}
+
+	public void setAlcoholUnit(String alcoholUnit) {
+		this.alcoholUnit = alcoholUnit;
+	}
+
+	public String getAlcoholValueType() {
+		return this.alcoholValueType;
+	}
+
+	public void setAlcoholValueType(String alcoholValueType) {
+		this.alcoholValueType = alcoholValueType;
+	}
+
+	public float getAlltransRetinolEquivalents() {
+		return this.alltransRetinolEquivalents;
+	}
+
+	public void setAlltransRetinolEquivalents(float alltransRetinolEquivalents) {
+		this.alltransRetinolEquivalents = alltransRetinolEquivalents;
+	}
+
+	public float getB1() {
+		return this.b1;
+	}
+
+	public void setB1(float b1) {
+		this.b1 = b1;
+	}
+
+	public String getB1MatrixUnit() {
+		return this.b1MatrixUnit;
+	}
+
+	public void setB1MatrixUnit(String b1MatrixUnit) {
+		this.b1MatrixUnit = b1MatrixUnit;
+	}
+
+	public String getB1Unit() {
+		return this.b1Unit;
+	}
+
+	public void setB1Unit(String b1Unit) {
+		this.b1Unit = b1Unit;
+	}
+
+	public String getB1ValueType() {
+		return this.b1ValueType;
+	}
+
+	public void setB1ValueType(String b1ValueType) {
+		this.b1ValueType = b1ValueType;
+	}
+
+	public float getB12() {
+		return this.b12;
+	}
+
+	public void setB12(float b12) {
+		this.b12 = b12;
+	}
+
+	public String getB12MatrixUnit() {
+		return this.b12MatrixUnit;
+	}
+
+	public void setB12MatrixUnit(String b12MatrixUnit) {
+		this.b12MatrixUnit = b12MatrixUnit;
+	}
+
+	public String getB12Unit() {
+		return this.b12Unit;
+	}
+
+	public void setB12Unit(String b12Unit) {
+		this.b12Unit = b12Unit;
+	}
+
+	public String getB12ValueType() {
+		return this.b12ValueType;
+	}
+
+	public void setB12ValueType(String b12ValueType) {
+		this.b12ValueType = b12ValueType;
+	}
+
+	public float getB2() {
+		return this.b2;
+	}
+
+	public void setB2(float b2) {
+		this.b2 = b2;
+	}
+
+	public String getB2MatrixUnit() {
+		return this.b2MatrixUnit;
+	}
+
+	public void setB2MatrixUnit(String b2MatrixUnit) {
+		this.b2MatrixUnit = b2MatrixUnit;
+	}
+
+	public String getB2Unit() {
+		return this.b2Unit;
+	}
+
+	public void setB2Unit(String b2Unit) {
+		this.b2Unit = b2Unit;
+	}
+
+	public String getB2ValueType() {
+		return this.b2ValueType;
+	}
+
+	public void setB2ValueType(String b2ValueType) {
+		this.b2ValueType = b2ValueType;
+	}
+
+	public float getB6() {
+		return this.b6;
+	}
+
+	public void setB6(float b6) {
+		this.b6 = b6;
+	}
+
+	public String getB6MatrixUnit() {
+		return this.b6MatrixUnit;
+	}
+
+	public void setB6MatrixUnit(String b6MatrixUnit) {
+		this.b6MatrixUnit = b6MatrixUnit;
+	}
+
+	public String getB6Unit() {
+		return this.b6Unit;
+	}
+
+	public void setB6Unit(String b6Unit) {
+		this.b6Unit = b6Unit;
+	}
+
+	public String getB6ValueType() {
+		return this.b6ValueType;
+	}
+
+	public void setB6ValueType(String b6ValueType) {
+		this.b6ValueType = b6ValueType;
+	}
+
+	public float getBetaCarotene() {
+		return this.betaCarotene;
+	}
+
+	public void setBetaCarotene(float betaCarotene) {
+		this.betaCarotene = betaCarotene;
+	}
+
+	public float getBetaCaroteneEquivalents() {
+		return this.betaCaroteneEquivalents;
+	}
+
+	public void setBetaCaroteneEquivalents(float betaCaroteneEquivalents) {
+		this.betaCaroteneEquivalents = betaCaroteneEquivalents;
+	}
+
+	public String getBetaCaroteneEquivalentsMatrixUnit() {
+		return this.betaCaroteneEquivalentsMatrixUnit;
+	}
+
+	public void setBetaCaroteneEquivalentsMatrixUnit(String betaCaroteneEquivalentsMatrixUnit) {
+		this.betaCaroteneEquivalentsMatrixUnit = betaCaroteneEquivalentsMatrixUnit;
+	}
+
+	public String getBetaCaroteneEquivalentsUnit() {
+		return this.betaCaroteneEquivalentsUnit;
+	}
+
+	public void setBetaCaroteneEquivalentsUnit(String betaCaroteneEquivalentsUnit) {
+		this.betaCaroteneEquivalentsUnit = betaCaroteneEquivalentsUnit;
+	}
+
+	public String getBetaCaroteneEquivalentsValueType() {
+		return this.betaCaroteneEquivalentsValueType;
+	}
+
+	public void setBetaCaroteneEquivalentsValueType(String betaCaroteneEquivalentsValueType) {
+		this.betaCaroteneEquivalentsValueType = betaCaroteneEquivalentsValueType;
+	}
+
+	public String getBetaCaroteneMatrixUnit() {
+		return this.betaCaroteneMatrixUnit;
+	}
+
+	public void setBetaCaroteneMatrixUnit(String betaCaroteneMatrixUnit) {
+		this.betaCaroteneMatrixUnit = betaCaroteneMatrixUnit;
+	}
+
+	public String getBetaCaroteneUnit() {
+		return this.betaCaroteneUnit;
+	}
+
+	public void setBetaCaroteneUnit(String betaCaroteneUnit) {
+		this.betaCaroteneUnit = betaCaroteneUnit;
+	}
+
+	public String getBetaCaroteneValueType() {
+		return this.betaCaroteneValueType;
+	}
+
+	public void setBetaCaroteneValueType(String betaCaroteneValueType) {
+		this.betaCaroteneValueType = betaCaroteneValueType;
+	}
+
+	public float getC() {
+		return this.c;
+	}
+
+	public void setC(float c) {
+		this.c = c;
+	}
+
+	public String getCMatrixUnit() {
+		return this.cMatrixUnit;
+	}
+
+	public void setCMatrixUnit(String cMatrixUnit) {
+		this.cMatrixUnit = cMatrixUnit;
+	}
+
+	public String getCUnit() {
+		return this.cUnit;
+	}
+
+	public void setCUnit(String cUnit) {
+		this.cUnit = cUnit;
+	}
+
+	public String getCValueType() {
+		return this.cValueType;
+	}
+
+	public void setCValueType(String cValueType) {
+		this.cValueType = cValueType;
+	}
+
+	public float getCalcium() {
+		return this.calcium;
+	}
+
+	public void setCalcium(float calcium) {
+		this.calcium = calcium;
+	}
+
+	public String getCalciumMatrixUnit() {
+		return this.calciumMatrixUnit;
+	}
+
+	public void setCalciumMatrixUnit(String calciumMatrixUnit) {
+		this.calciumMatrixUnit = calciumMatrixUnit;
+	}
+
+	public String getCalciumUnit() {
+		return this.calciumUnit;
+	}
+
+	public void setCalciumUnit(String calciumUnit) {
+		this.calciumUnit = calciumUnit;
+	}
+
+	public String getCalciumValueType() {
+		return this.calciumValueType;
+	}
+
+	public void setCalciumValueType(String calciumValueType) {
+		this.calciumValueType = calciumValueType;
+	}
+
+	public String getCategoryD() {
+		return this.categoryD;
+	}
+
+	public void setCategoryD(String categoryD) {
+		this.categoryD = categoryD;
+	}
+
+	public String getCategoryE() {
+		return this.categoryE;
+	}
+
+	public void setCategoryE(String categoryE) {
+		this.categoryE = categoryE;
+	}
+
+	public String getCategoryF() {
+		return this.categoryF;
+	}
+
+	public void setCategoryF(String categoryF) {
+		this.categoryF = categoryF;
+	}
+
+	public String getCategoryI() {
+		return this.categoryI;
+	}
+
+	public void setCategoryI(String categoryI) {
+		this.categoryI = categoryI;
+	}
+
+	public float getCharbohydrateAvailable() {
+		return this.charbohydrateAvailable;
+	}
+
+	public void setCharbohydrateAvailable(float charbohydrateAvailable) {
+		this.charbohydrateAvailable = charbohydrateAvailable;
+	}
+
+	public String getCharbohydrateMatrixUnit() {
+		return this.charbohydrateMatrixUnit;
+	}
+
+	public void setCharbohydrateMatrixUnit(String charbohydrateMatrixUnit) {
+		this.charbohydrateMatrixUnit = charbohydrateMatrixUnit;
+	}
+
+	public String getCharbohydrateUnit() {
+		return this.charbohydrateUnit;
+	}
+
+	public void setCharbohydrateUnit(String charbohydrateUnit) {
+		this.charbohydrateUnit = charbohydrateUnit;
+	}
+
+	public String getCharbohydrateValueType() {
+		return this.charbohydrateValueType;
+	}
+
+	public void setCharbohydrateValueType(String charbohydrateValueType) {
+		this.charbohydrateValueType = charbohydrateValueType;
+	}
+
+	public float getChlorid() {
+		return this.chlorid;
+	}
+
+	public void setChlorid(float chlorid) {
+		this.chlorid = chlorid;
+	}
+
+	public String getChloridMatrixUnit() {
+		return this.chloridMatrixUnit;
+	}
+
+	public void setChloridMatrixUnit(String chloridMatrixUnit) {
+		this.chloridMatrixUnit = chloridMatrixUnit;
+	}
+
+	public String getChloridUnit() {
+		return this.chloridUnit;
+	}
+
+	public void setChloridUnit(String chloridUnit) {
+		this.chloridUnit = chloridUnit;
+	}
+
+	public String getChloridValueType() {
+		return this.chloridValueType;
+	}
+
+	public void setChloridValueType(String chloridValueType) {
+		this.chloridValueType = chloridValueType;
+	}
+
+	public float getCholesterol() {
+		return this.cholesterol;
+	}
+
+	public void setCholesterol(float cholesterol) {
+		this.cholesterol = cholesterol;
+	}
+
+	public String getCholesterolMatrixUnit() {
+		return this.cholesterolMatrixUnit;
+	}
+
+	public void setCholesterolMatrixUnit(String cholesterolMatrixUnit) {
+		this.cholesterolMatrixUnit = cholesterolMatrixUnit;
+	}
+
+	public String getCholesterolUnit() {
+		return this.cholesterolUnit;
+	}
+
+	public void setCholesterolUnit(String cholesterolUnit) {
+		this.cholesterolUnit = cholesterolUnit;
+	}
+
+	public String getCholesterolValueType() {
+		return this.cholesterolValueType;
+	}
+
+	public void setCholesterolValueType(String cholesterolValueType) {
+		this.cholesterolValueType = cholesterolValueType;
+	}
+
+	public float getD() {
+		return this.d;
+	}
+
+	public void setD(float d) {
+		this.d = d;
+	}
+
+	public String getDMatrixUnit() {
+		return this.dMatrixUnit;
+	}
+
+	public void setDMatrixUnit(String dMatrixUnit) {
+		this.dMatrixUnit = dMatrixUnit;
+	}
+
+	public String getDUnit() {
+		return this.dUnit;
+	}
+
+	public void setDUnit(String dUnit) {
+		this.dUnit = dUnit;
+	}
+
+	public String getDValueType() {
+		return this.dValueType;
+	}
+
+	public void setDValueType(String dValueType) {
+		this.dValueType = dValueType;
+	}
+
+	public float getDietaryFibreTotal() {
+		return this.dietaryFibreTotal;
+	}
+
+	public void setDietaryFibreTotal(float dietaryFibreTotal) {
+		this.dietaryFibreTotal = dietaryFibreTotal;
+	}
+
+	public String getDietaryFibreTotalMatrixUnit() {
+		return this.dietaryFibreTotalMatrixUnit;
+	}
+
+	public void setDietaryFibreTotalMatrixUnit(String dietaryFibreTotalMatrixUnit) {
+		this.dietaryFibreTotalMatrixUnit = dietaryFibreTotalMatrixUnit;
+	}
+
+	public String getDietaryFibreTotalUnit() {
+		return this.dietaryFibreTotalUnit;
+	}
+
+	public void setDietaryFibreTotalUnit(String dietaryFibreTotalUnit) {
+		this.dietaryFibreTotalUnit = dietaryFibreTotalUnit;
+	}
+
+	public String getDietaryFibreTotalValueType() {
+		return this.dietaryFibreTotalValueType;
+	}
+
+	public void setDietaryFibreTotalValueType(String dietaryFibreTotalValueType) {
+		this.dietaryFibreTotalValueType = dietaryFibreTotalValueType;
+	}
+
+	public float getE() {
+		return this.e;
+	}
+
+	public void setE(float e) {
+		this.e = e;
+	}
+
+	public String getEMatrixUnit() {
+		return this.eMatrixUnit;
+	}
+
+	public void setEMatrixUnit(String eMatrixUnit) {
+		this.eMatrixUnit = eMatrixUnit;
+	}
+
+	public String getEUnit() {
+		return this.eUnit;
+	}
+
+	public void setEUnit(String eUnit) {
+		this.eUnit = eUnit;
+	}
+
+	public String getEValueType() {
+		return this.eValueType;
+	}
+
+	public void setEValueType(String eValueType) {
+		this.eValueType = eValueType;
+	}
+
+	public float getEnergyKcal() {
+		return this.energyKcal;
+	}
+
+	public void setEnergyKcal(float energyKcal) {
+		this.energyKcal = energyKcal;
+	}
+
+	public float getEnergyKj() {
+		return this.energyKj;
+	}
+
+	public void setEnergyKj(float energyKj) {
+		this.energyKj = energyKj;
+	}
+
+	public String getEnergyMatrixUnit() {
+		return this.energyMatrixUnit;
+	}
+
+	public void setEnergyMatrixUnit(String energyMatrixUnit) {
+		this.energyMatrixUnit = energyMatrixUnit;
+	}
+
+	public String getEnergyUnit() {
+		return this.energyUnit;
+	}
+
+	public void setEnergyUnit(String energyUnit) {
+		this.energyUnit = energyUnit;
+	}
+
+	public String getEnergyValueType() {
+		return this.energyValueType;
+	}
+
+	public void setEnergyValueType(String energyValueType) {
+		this.energyValueType = energyValueType;
+	}
+
+	public float getFatTotal() {
+		return this.fatTotal;
+	}
+
+	public void setFatTotal(float fatTotal) {
+		this.fatTotal = fatTotal;
+	}
+
+	public String getFatTotalMatrixUnit() {
+		return this.fatTotalMatrixUnit;
+	}
+
+	public void setFatTotalMatrixUnit(String fatTotalMatrixUnit) {
+		this.fatTotalMatrixUnit = fatTotalMatrixUnit;
+	}
+
+	public String getFatTotalUnit() {
+		return this.fatTotalUnit;
+	}
+
+	public void setFatTotalUnit(String fatTotalUnit) {
+		this.fatTotalUnit = fatTotalUnit;
+	}
+
+	public String getFatTotalValueType() {
+		return this.fatTotalValueType;
+	}
+
+	public void setFatTotalValueType(String fatTotalValueType) {
+		this.fatTotalValueType = fatTotalValueType;
+	}
+
+	public float getFattyAcidsTotalMonoUnsaturated() {
+		return this.fattyAcidsTotalMonoUnsaturated;
+	}
+
+	public void setFattyAcidsTotalMonoUnsaturated(float fattyAcidsTotalMonoUnsaturated) {
+		this.fattyAcidsTotalMonoUnsaturated = fattyAcidsTotalMonoUnsaturated;
+	}
+
+	public String getFattyAcidsTotalMonoUnsaturatedMatrixUnit() {
+		return this.fattyAcidsTotalMonoUnsaturatedMatrixUnit;
+	}
+
+	public void setFattyAcidsTotalMonoUnsaturatedMatrixUnit(String fattyAcidsTotalMonoUnsaturatedMatrixUnit) {
+		this.fattyAcidsTotalMonoUnsaturatedMatrixUnit = fattyAcidsTotalMonoUnsaturatedMatrixUnit;
+	}
+
+	public String getFattyAcidsTotalMonoUnsaturatedUnit() {
+		return this.fattyAcidsTotalMonoUnsaturatedUnit;
+	}
+
+	public void setFattyAcidsTotalMonoUnsaturatedUnit(String fattyAcidsTotalMonoUnsaturatedUnit) {
+		this.fattyAcidsTotalMonoUnsaturatedUnit = fattyAcidsTotalMonoUnsaturatedUnit;
+	}
+
+	public String getFattyAcidsTotalMonoUnsaturatedValueType() {
+		return this.fattyAcidsTotalMonoUnsaturatedValueType;
+	}
+
+	public void setFattyAcidsTotalMonoUnsaturatedValueType(String fattyAcidsTotalMonoUnsaturatedValueType) {
+		this.fattyAcidsTotalMonoUnsaturatedValueType = fattyAcidsTotalMonoUnsaturatedValueType;
+	}
+
+	public float getFattyAcidsTotalPolyUnsaturated() {
+		return this.fattyAcidsTotalPolyUnsaturated;
+	}
+
+	public void setFattyAcidsTotalPolyUnsaturated(float fattyAcidsTotalPolyUnsaturated) {
+		this.fattyAcidsTotalPolyUnsaturated = fattyAcidsTotalPolyUnsaturated;
+	}
+
+	public String getFattyAcidsTotalPolyUnsaturatedMatrixUnit() {
+		return this.fattyAcidsTotalPolyUnsaturatedMatrixUnit;
+	}
+
+	public void setFattyAcidsTotalPolyUnsaturatedMatrixUnit(String fattyAcidsTotalPolyUnsaturatedMatrixUnit) {
+		this.fattyAcidsTotalPolyUnsaturatedMatrixUnit = fattyAcidsTotalPolyUnsaturatedMatrixUnit;
+	}
+
+	public String getFattyAcidsTotalPolyUnsaturatedUnit() {
+		return this.fattyAcidsTotalPolyUnsaturatedUnit;
+	}
+
+	public void setFattyAcidsTotalPolyUnsaturatedUnit(String fattyAcidsTotalPolyUnsaturatedUnit) {
+		this.fattyAcidsTotalPolyUnsaturatedUnit = fattyAcidsTotalPolyUnsaturatedUnit;
+	}
+
+	public String getFattyAcidsTotalPolyUnsaturatedValueType() {
+		return this.fattyAcidsTotalPolyUnsaturatedValueType;
+	}
+
+	public void setFattyAcidsTotalPolyUnsaturatedValueType(String fattyAcidsTotalPolyUnsaturatedValueType) {
+		this.fattyAcidsTotalPolyUnsaturatedValueType = fattyAcidsTotalPolyUnsaturatedValueType;
+	}
+
+	public float getFattyAcidsTotalSaturated() {
+		return this.fattyAcidsTotalSaturated;
+	}
+
+	public void setFattyAcidsTotalSaturated(float fattyAcidsTotalSaturated) {
+		this.fattyAcidsTotalSaturated = fattyAcidsTotalSaturated;
+	}
+
+	public String getFattyAcidsTotalSaturatedMatrixUnit() {
+		return this.fattyAcidsTotalSaturatedMatrixUnit;
+	}
+
+	public void setFattyAcidsTotalSaturatedMatrixUnit(String fattyAcidsTotalSaturatedMatrixUnit) {
+		this.fattyAcidsTotalSaturatedMatrixUnit = fattyAcidsTotalSaturatedMatrixUnit;
+	}
+
+	public String getFattyAcidsTotalSaturatedUnit() {
+		return this.fattyAcidsTotalSaturatedUnit;
+	}
+
+	public void setFattyAcidsTotalSaturatedUnit(String fattyAcidsTotalSaturatedUnit) {
+		this.fattyAcidsTotalSaturatedUnit = fattyAcidsTotalSaturatedUnit;
+	}
+
+	public String getFattyAcidsTotalSaturatedValueType() {
+		return this.fattyAcidsTotalSaturatedValueType;
+	}
+
+	public void setFattyAcidsTotalSaturatedValueType(String fattyAcidsTotalSaturatedValueType) {
+		this.fattyAcidsTotalSaturatedValueType = fattyAcidsTotalSaturatedValueType;
+	}
+
+	public float getFolate() {
+		return this.folate;
+	}
+
+	public void setFolate(float folate) {
+		this.folate = folate;
+	}
+
+	public String getFolateMatrixUnit() {
+		return this.folateMatrixUnit;
+	}
+
+	public void setFolateMatrixUnit(String folateMatrixUnit) {
+		this.folateMatrixUnit = folateMatrixUnit;
+	}
+
+	public String getFolateUnit() {
+		return this.folateUnit;
+	}
+
+	public void setFolateUnit(String folateUnit) {
+		this.folateUnit = folateUnit;
+	}
+
+	public String getFolateValueType() {
+		return this.folateValueType;
+	}
+
+	public void setFolateValueType(String folateValueType) {
+		this.folateValueType = folateValueType;
+	}
+
+	public int getIdSwissFir() {
+		return this.idSwissFir;
+	}
+
+	public void setIdSwissFir(int idSwissFir) {
+		this.idSwissFir = idSwissFir;
+	}
+
+	public int getIdV4() {
+		return this.idV4;
+	}
+
+	public void setIdV4(int idV4) {
+		this.idV4 = idV4;
+	}
+
+	public float getIodide() {
+		return this.iodide;
+	}
+
+	public void setIodide(float iodide) {
+		this.iodide = iodide;
+	}
+
+	public String getIodideMatrixUnit() {
+		return this.iodideMatrixUnit;
+	}
+
+	public void setIodideMatrixUnit(String iodideMatrixUnit) {
+		this.iodideMatrixUnit = iodideMatrixUnit;
+	}
+
+	public String getIodideUnit() {
+		return this.iodideUnit;
+	}
+
+	public void setIodideUnit(String iodideUnit) {
+		this.iodideUnit = iodideUnit;
+	}
+
+	public String getIodideValueType() {
+		return this.iodideValueType;
+	}
+
+	public void setIodideValueType(String iodideValueType) {
+		this.iodideValueType = iodideValueType;
+	}
+
+	public float getIronTotal() {
+		return this.ironTotal;
+	}
+
+	public void setIronTotal(float ironTotal) {
+		this.ironTotal = ironTotal;
+	}
+
+	public String getIronTotalMatrixUnit() {
+		return this.ironTotalMatrixUnit;
+	}
+
+	public void setIronTotalMatrixUnit(String ironTotalMatrixUnit) {
+		this.ironTotalMatrixUnit = ironTotalMatrixUnit;
+	}
+
+	public String getIronTotalUnit() {
+		return this.ironTotalUnit;
+	}
+
+	public void setIronTotalUnit(String ironTotalUnit) {
+		this.ironTotalUnit = ironTotalUnit;
+	}
+
+	public String getIronTotalValueType() {
+		return this.ironTotalValueType;
+	}
+
+	public void setIronTotalValueType(String ironTotalValueType) {
+		this.ironTotalValueType = ironTotalValueType;
+	}
+
+	public String getKcalMatrixUnit() {
+		return this.kcalMatrixUnit;
+	}
+
+	public void setKcalMatrixUnit(String kcalMatrixUnit) {
+		this.kcalMatrixUnit = kcalMatrixUnit;
+	}
+
+	public String getKcalUnit() {
+		return this.kcalUnit;
+	}
+
+	public void setKcalUnit(String kcalUnit) {
+		this.kcalUnit = kcalUnit;
+	}
+
+	public String getKcalValueType() {
+		return this.kcalValueType;
+	}
+
+	public void setKcalValueType(String kcalValueType) {
+		this.kcalValueType = kcalValueType;
+	}
+
+	public float getMagnesium() {
+		return this.magnesium;
+	}
+
+	public void setMagnesium(float magnesium) {
+		this.magnesium = magnesium;
+	}
+
+	public String getMagnesiumMatrixUnit() {
+		return this.magnesiumMatrixUnit;
+	}
+
+	public void setMagnesiumMatrixUnit(String magnesiumMatrixUnit) {
+		this.magnesiumMatrixUnit = magnesiumMatrixUnit;
+	}
+
+	public String getMagnesiumUnit() {
+		return this.magnesiumUnit;
+	}
+
+	public void setMagnesiumUnit(String magnesiumUnit) {
+		this.magnesiumUnit = magnesiumUnit;
+	}
+
+	public String getMagnesiumValueType() {
+		return this.magnesiumValueType;
+	}
+
+	public void setMagnesiumValueType(String magnesiumValueType) {
+		this.magnesiumValueType = magnesiumValueType;
+	}
+
+	public String getNameD() {
+		return this.nameD;
+	}
+
+	public void setNameD(String nameD) {
+		this.nameD = nameD;
+	}
+
+	public String getNameE() {
+		return this.nameE;
+	}
+
+	public void setNameE(String nameE) {
+		this.nameE = nameE;
+	}
+
+	public String getNameF() {
+		return this.nameF;
+	}
+
+	public void setNameF(String nameF) {
+		this.nameF = nameF;
+	}
+
+	public String getNameI() {
+		return this.nameI;
+	}
+
+	public void setNameI(String nameI) {
+		this.nameI = nameI;
+	}
+
+	public float getNiacine() {
+		return this.niacine;
+	}
+
+	public void setNiacine(float niacine) {
+		this.niacine = niacine;
+	}
+
+	public String getNiacineMatrixUnit() {
+		return this.niacineMatrixUnit;
+	}
+
+	public void setNiacineMatrixUnit(String niacineMatrixUnit) {
+		this.niacineMatrixUnit = niacineMatrixUnit;
+	}
+
+	public String getNiacineUnit() {
+		return this.niacineUnit;
+	}
+
+	public void setNiacineUnit(String niacineUnit) {
+		this.niacineUnit = niacineUnit;
+	}
+
+	public String getNiacineValueType() {
+		return this.niacineValueType;
+	}
+
+	public void setNiacineValueType(String niacineValueType) {
+		this.niacineValueType = niacineValueType;
+	}
+
+	public float getPantothenicAcid() {
+		return this.pantothenicAcid;
+	}
+
+	public void setPantothenicAcid(float pantothenicAcid) {
+		this.pantothenicAcid = pantothenicAcid;
+	}
+
+	public String getPantothenicAcidMatrixUnit() {
+		return this.pantothenicAcidMatrixUnit;
+	}
+
+	public void setPantothenicAcidMatrixUnit(String pantothenicAcidMatrixUnit) {
+		this.pantothenicAcidMatrixUnit = pantothenicAcidMatrixUnit;
+	}
+
+	public String getPantothenicAcidUnit() {
+		return this.pantothenicAcidUnit;
+	}
+
+	public void setPantothenicAcidUnit(String pantothenicAcidUnit) {
+		this.pantothenicAcidUnit = pantothenicAcidUnit;
+	}
+
+	public String getPantothenicAcidValueType() {
+		return this.pantothenicAcidValueType;
+	}
+
+	public void setPantothenicAcidValueType(String pantothenicAcidValueType) {
+		this.pantothenicAcidValueType = pantothenicAcidValueType;
+	}
+
+	public float getPhosphor() {
+		return this.phosphor;
+	}
+
+	public void setPhosphor(float phosphor) {
+		this.phosphor = phosphor;
+	}
+
+	public String getPhosphorMatrixUnit() {
+		return this.phosphorMatrixUnit;
+	}
+
+	public void setPhosphorMatrixUnit(String phosphorMatrixUnit) {
+		this.phosphorMatrixUnit = phosphorMatrixUnit;
+	}
+
+	public String getPhosphorUnit() {
+		return this.phosphorUnit;
+	}
+
+	public void setPhosphorUnit(String phosphorUnit) {
+		this.phosphorUnit = phosphorUnit;
+	}
+
+	public String getPhosphorValueType() {
+		return this.phosphorValueType;
+	}
+
+	public void setPhosphorValueType(String phosphorValueType) {
+		this.phosphorValueType = phosphorValueType;
+	}
+
+	public float getPotassium() {
+		return this.potassium;
+	}
+
+	public void setPotassium(float potassium) {
+		this.potassium = potassium;
+	}
+
+	public String getPotassiumMatrixUnit() {
+		return this.potassiumMatrixUnit;
+	}
+
+	public void setPotassiumMatrixUnit(String potassiumMatrixUnit) {
+		this.potassiumMatrixUnit = potassiumMatrixUnit;
+	}
+
+	public String getPotassiumUnit() {
+		return this.potassiumUnit;
+	}
+
+	public void setPotassiumUnit(String potassiumUnit) {
+		this.potassiumUnit = potassiumUnit;
+	}
+
+	public String getPotassiumValueType() {
+		return this.potassiumValueType;
+	}
+
+	public void setPotassiumValueType(String potassiumValueType) {
+		this.potassiumValueType = potassiumValueType;
+	}
+
+	public int getProtein() {
+		return this.protein;
+	}
+
+	public void setProtein(int protein) {
+		this.protein = protein;
+	}
+
+	public String getProteinMatrixUnit() {
+		return this.proteinMatrixUnit;
+	}
+
+	public void setProteinMatrixUnit(String proteinMatrixUnit) {
+		this.proteinMatrixUnit = proteinMatrixUnit;
+	}
+
+	public String getProteinUnit() {
+		return this.proteinUnit;
+	}
+
+	public void setProteinUnit(String proteinUnit) {
+		this.proteinUnit = proteinUnit;
+	}
+
+	public String getProteinValueType() {
+		return this.proteinValueType;
+	}
+
+	public void setProteinValueType(String proteinValueType) {
+		this.proteinValueType = proteinValueType;
+	}
+
+	public String getRecordHasChanged() {
+		return this.recordHasChanged;
+	}
+
+	public void setRecordHasChanged(String recordHasChanged) {
+		this.recordHasChanged = recordHasChanged;
+	}
+
+	public String getRetinolMatrixUnit() {
+		return this.retinolMatrixUnit;
+	}
+
+	public void setRetinolMatrixUnit(String retinolMatrixUnit) {
+		this.retinolMatrixUnit = retinolMatrixUnit;
+	}
+
+	public String getRetinolUnit() {
+		return this.retinolUnit;
+	}
+
+	public void setRetinolUnit(String retinolUnit) {
+		this.retinolUnit = retinolUnit;
+	}
+
+	public String getRetinolValueType() {
+		return this.retinolValueType;
+	}
+
+	public void setRetinolValueType(String retinolValueType) {
+		this.retinolValueType = retinolValueType;
+	}
+
+	public float getSodium() {
+		return this.sodium;
+	}
+
+	public void setSodium(float sodium) {
+		this.sodium = sodium;
+	}
+
+	public String getSodiumMatrixUnit() {
+		return this.sodiumMatrixUnit;
+	}
+
+	public void setSodiumMatrixUnit(String sodiumMatrixUnit) {
+		this.sodiumMatrixUnit = sodiumMatrixUnit;
+	}
+
+	public String getSodiumUnit() {
+		return this.sodiumUnit;
+	}
+
+	public void setSodiumUnit(String sodiumUnit) {
+		this.sodiumUnit = sodiumUnit;
+	}
+
+	public String getSodiumValueType() {
+		return this.sodiumValueType;
+	}
+
+	public void setSodiumValueType(String sodiumValueType) {
+		this.sodiumValueType = sodiumValueType;
+	}
+
+	public float getSpecificGravity() {
+		return this.specificGravity;
+	}
+
+	public void setSpecificGravity(float specificGravity) {
+		this.specificGravity = specificGravity;
+	}
+
+	public String getStarchMatrixUnit() {
+		return this.starchMatrixUnit;
+	}
+
+	public void setStarchMatrixUnit(String starchMatrixUnit) {
+		this.starchMatrixUnit = starchMatrixUnit;
+	}
+
+	public float getStarchTotal() {
+		return this.starchTotal;
+	}
+
+	public void setStarchTotal(float starchTotal) {
+		this.starchTotal = starchTotal;
+	}
+
+	public String getStarchUnit() {
+		return this.starchUnit;
+	}
+
+	public void setStarchUnit(String starchUnit) {
+		this.starchUnit = starchUnit;
+	}
+
+	public String getStarchValueType() {
+		return this.starchValueType;
+	}
+
+	public void setStarchValueType(String starchValueType) {
+		this.starchValueType = starchValueType;
+	}
+
+	public String getSugarMatrixUnit() {
+		return this.sugarMatrixUnit;
+	}
+
+	public void setSugarMatrixUnit(String sugarMatrixUnit) {
+		this.sugarMatrixUnit = sugarMatrixUnit;
+	}
+
+	public float getSugarTotal() {
+		return this.sugarTotal;
+	}
+
+	public void setSugarTotal(float sugarTotal) {
+		this.sugarTotal = sugarTotal;
+	}
+
+	public String getSugarUnit() {
+		return this.sugarUnit;
+	}
+
+	public void setSugarUnit(String sugarUnit) {
+		this.sugarUnit = sugarUnit;
+	}
+
+	public String getSugarValueType() {
+		return this.sugarValueType;
+	}
+
+	public void setSugarValueType(String sugarValueType) {
+		this.sugarValueType = sugarValueType;
+	}
+
+	public String getSynonymsD() {
+		return this.synonymsD;
+	}
+
+	public void setSynonymsD(String synonymsD) {
+		this.synonymsD = synonymsD;
+	}
+
+	public String getSynonymsE() {
+		return this.synonymsE;
+	}
+
+	public void setSynonymsE(String synonymsE) {
+		this.synonymsE = synonymsE;
+	}
+
+	public String getSynonymsF() {
+		return this.synonymsF;
+	}
+
+	public void setSynonymsF(String synonymsF) {
+		this.synonymsF = synonymsF;
+	}
+
+	public String getSynonymsI() {
+		return this.synonymsI;
+	}
+
+	public void setSynonymsI(String synonymsI) {
+		this.synonymsI = synonymsI;
+	}
+
+	public float getVitA() {
+		return this.vitA;
+	}
+
+	public void setVitA(float vitA) {
+		this.vitA = vitA;
+	}
+
+	public String getVitAMatrixUnit() {
+		return this.vitAMatrixUnit;
+	}
+
+	public void setVitAMatrixUnit(String vitAMatrixUnit) {
+		this.vitAMatrixUnit = vitAMatrixUnit;
+	}
+
+	public String getVitAUnit() {
+		return this.vitAUnit;
+	}
+
+	public void setVitAUnit(String vitAUnit) {
+		this.vitAUnit = vitAUnit;
+	}
+
+	public String getVitAValueType() {
+		return this.vitAValueType;
+	}
+
+	public void setVitAValueType(String vitAValueType) {
+		this.vitAValueType = vitAValueType;
+	}
+
+	public float getWater() {
+		return this.water;
+	}
+
+	public void setWater(float water) {
+		this.water = water;
+	}
+
+	public String getWaterMatrixUnit() {
+		return this.waterMatrixUnit;
+	}
+
+	public void setWaterMatrixUnit(String waterMatrixUnit) {
+		this.waterMatrixUnit = waterMatrixUnit;
+	}
+
+	public String getWaterUnit() {
+		return this.waterUnit;
+	}
+
+	public void setWaterUnit(String waterUnit) {
+		this.waterUnit = waterUnit;
+	}
+
+	public String getWaterValueType() {
+		return this.waterValueType;
+	}
+
+	public void setWaterValueType(String waterValueType) {
+		this.waterValueType = waterValueType;
+	}
+
+	public float getZinc() {
+		return this.zinc;
+	}
+
+	public void setZinc(float zinc) {
+		this.zinc = zinc;
+	}
+
+	public String getZincMatrixUnit() {
+		return this.zincMatrixUnit;
+	}
+
+	public void setZincMatrixUnit(String zincMatrixUnit) {
+		this.zincMatrixUnit = zincMatrixUnit;
+	}
+
+	public String getZincUnit() {
+		return this.zincUnit;
+	}
+
+	public void setZincUnit(String zincUnit) {
+		this.zincUnit = zincUnit;
+	}
+
+	public String getZincValueType() {
+		return this.zincValueType;
+	}
+
+	public void setZincValueType(String zincValueType) {
+		this.zincValueType = zincValueType;
+	}
+
+	public List<Plate> getPlates() {
+		return this.plates;
+	}
+
+	public void setPlates(List<Plate> plates) {
+		this.plates = plates;
+	}
+
+}

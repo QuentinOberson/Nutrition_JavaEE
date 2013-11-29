@@ -1,0 +1,19 @@
+
+public class AlphabetRunnable implements Runnable{
+
+	@Override
+	public void run() {
+		
+		wait();
+		
+		for(char alphabet = 'a'; alphabet <= 'z';alphabet++)
+		{
+			 System.out.println(alphabet);
+		}
+		
+		for(char alphabet = 'A'; alphabet <= 'Z';alphabet++)
+		{
+			 System.out.println(alphabet);
+		}
+	}
+}

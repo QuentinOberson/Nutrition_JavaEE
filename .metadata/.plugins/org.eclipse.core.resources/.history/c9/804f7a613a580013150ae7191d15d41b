@@ -1,0 +1,27 @@
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+
+public class test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		CounterRunnable counter = new CounterRunnable();
+		AlphabetRunnable alpha = new AlphabetRunnable();
+		
+		ExecutorService pool = Executors.newFixedThreadPool(2);
+		
+		pool.execute(counter);
+		try {
+			pool.wait();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		pool.execute(alpha);
+		
+		pool.shutdown();
+	}
+}

@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/model/business/entities/Language.java=UTF-8
+encoding//src/model/business/entities/User.java=UTF-8
+encoding//src/model/business/service/Hello.java=UTF-8
+encoding//src/model/business/service/IsRegistered.java=UTF-8
+encoding//src/model/business/service/IsRegisteredResponse.java=UTF-8
+encoding//src/model/business/service/RegisterNewUser.java=UTF-8
+encoding//src/model/business/service/RegisterNewUserResponse.java=UTF-8
+encoding//src/model/business/service/UpdateProfile.java=UTF-8

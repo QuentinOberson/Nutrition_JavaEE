@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/></Host>
+      <Context docBase="C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\nutrition_service" path="/nutrition_service" reloadable="true" source="org.eclipse.jst.j2ee.server:nutrition_service"/><Context docBase="C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\nutrition_serviceClient" path="/nutrition_serviceClient" reloadable="true" source="org.eclipse.jst.jee.server:nutrition_serviceClient"/></Host>
     </Engine>
   </Service>
 </Server>

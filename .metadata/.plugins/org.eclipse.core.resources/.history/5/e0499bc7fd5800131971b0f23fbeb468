@@ -1,0 +1,97 @@
+package model.business.service;
+
+import static org.junit.Assert.*;
+
+import java.util.Date;
+
+import junit.framework.Assert;
+
+import model.business.entities.Language;
+import model.business.entities.User;
+
+import org.junit.Test;
+
+public class UserServiceTest {
+
+	@Test
+	public void testHello() {
+		
+		UserService service = new UserService();
+		
+		String response = service.hello();
+		
+		Assert.assertEquals("Hello World!", response);
+	}
+
+	@Test
+	public void testIsRegistered() {
+		
+		UserService service = new UserService();
+		
+		//Non-existing user
+		boolean response = service.isRegistered("jojolasticot@blabla.com", "98765431");
+		
+		Assert.assertEquals(false, response);
+				
+		//Existing user
+		response = service.isRegistered("q.oberson@gmail.com", "1234");
+				
+		Assert.assertEquals(true, response);
+	}
+
+	@Test
+	public void testUpdateProfile() {
+		
+		UserService service = new UserService();
+		
+		//Existing user
+		User user = service.getUserById(9);
+		boolean response = service.updateProfile(user);
+		
+		Assert.assertEquals(true, response);
+		
+		//Non-existing user
+		user = new User();
+		response = service.updateProfile(user);
+		
+		Assert.assertEquals(false, response);
+	}
+
+	@Test
+	public void testRegisterNewUser() {
+		
+		UserService service = new UserService();
+		
+		//Not existing user
+		User user = new User();
+		user.setFirstname("test");
+		user.setLastname("test");
+		user.setEmail("test@test.com");
+		user.setBirthday(new Date(1990, 8, 25));
+		user.setPassword("test");
+		user.setLanguage(service.getLanguageById(9));
+		
+		boolean response = service.registerNewUser(user);
+		
+		Assert.assertEquals(true, response);
+		//Existing user
+		user = service.getUserById(9);
+		
+		response = service.registerNewUser(user);
+		
+		Assert.assertEquals(false, response);
+		
+	}
+	
+	@Test
+	public void testGetUserById() {
+		
+		UserService service = new UserService();
+		
+	}
+
+	@Test
+	public void testGetLanguageById() {
+		
+	}
+}

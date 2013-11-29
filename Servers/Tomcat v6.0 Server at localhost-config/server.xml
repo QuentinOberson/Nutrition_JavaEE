@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      </Host>
+      <Context docBase="nutrition_service" path="/nutrition_service" reloadable="true" source="org.eclipse.jst.j2ee.server:nutrition_service"/><Context docBase="nutrition_serviceClient" path="/nutrition_serviceClient" reloadable="true" source="org.eclipse.jst.jee.server:nutrition_serviceClient"/></Host>
     </Engine>
   </Service>
 </Server>

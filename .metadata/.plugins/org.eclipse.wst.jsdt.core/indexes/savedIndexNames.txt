@@ -1,0 +1,4 @@
+INDEX VERSION 1.122+C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3561328468.index
+1041952770.index
+503196484.index

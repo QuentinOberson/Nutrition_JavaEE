@@ -1,8 +1,0 @@
-package business_objects;
-import javax.persistence.Entity;
-
-
-@Entity
-public class User {
-
-}

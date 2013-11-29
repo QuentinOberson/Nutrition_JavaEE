@@ -16,12 +16,7 @@ public class test {
 		User user = new User("Martin", "Ecoffey", "m.ecoffey@gmail.com");
 		
 		try {
-			Hashtable env = new Hashtable();
-			env.put(Context.PROVIDER_URL, "jdbc:mysql://localhost:3306/nutrition_database");
-			env.put(Context.SECURITY_PRINCIPAL, "quentin");
-			env.put(Context.SECURITY_CREDENTIALS, "quentin");
-			
-			Context ctx = new InitialContext(env);
+			Context ctx = new InitialContext();
 			
 			NutritionService service = (NutritionService)ctx.lookup(
 					"java:comp/env/jdbc/nutrition_database/NutritionService/local");
