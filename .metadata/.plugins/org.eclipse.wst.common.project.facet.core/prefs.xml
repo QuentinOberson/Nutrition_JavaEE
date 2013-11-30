@@ -6,4 +6,11 @@
       </node>
     </node>
   </facet>
+  <facet id="jst.jaxrs">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="1.1" value="com.sun.enterprise.jst.server.sunappsrv.jaxrsLibraryproviderID"/>
+      </node>
+    </node>
+  </facet>
 </root>

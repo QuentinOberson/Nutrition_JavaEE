@@ -1,0 +1,5 @@
+#GlassFish 3
+#Sat Nov 30 19:17:11 CET 2013
+org.eclipse.jst.jee.server\:Web_Service_TestEAR=C\:\\glassfish3\\glassfish\\domains\\domain1\\eclipseApps\\Web_Service_TestEAR
+org.eclipse.jst.jee.server\:nutrition_serviceClient=C\:\\glassfish3\\glassfish\\domains\\domain1\\eclipseApps\\nutrition_serviceClient
+org.eclipse.jst.j2ee.server\:nutrition_service=C\:\\glassfish3\\glassfish\\domains\\domain1\\eclipseApps\\nutrition_service

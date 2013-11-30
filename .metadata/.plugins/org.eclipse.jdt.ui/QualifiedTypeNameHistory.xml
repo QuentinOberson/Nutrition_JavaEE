@@ -35,4 +35,5 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="model.business.entities.Language"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="intf.Service"/>
 </qualifiedTypeNameHistroy>

@@ -1,3 +1,5 @@
 INDEX VERSION 1.126
 C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\503196484.index
 \nutrition_serviceClient\src
+C:\Users\Quentin\github\Nutrition_JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3696744318.index
+\Web_Service_Test\src

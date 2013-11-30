@@ -1,0 +1,122 @@
+package model.business.service;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceContextType;
+import javax.persistence.Query;
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+import model.business.entities.Language;
+import model.business.entities.User;
+
+//http://localhost:8080/nutrition_serviceClient/sampleUserServiceProxy/TestClient.jsp
+
+@Stateless
+@LocalBean
+@Path("/users")
+public class UserService {
+
+	//@PersistenceContext(unitName="nutrition_service",  type=PersistenceContextType.TRANSACTION)
+	EntityManager entityManager;
+	
+	@GET
+    @Produces(MediaType.APPLICATION_XML)
+	@Path("hello")
+	public String hello()
+	{
+		return "Hello World!";
+	}
+	
+	
+	@GET
+    @Produces(MediaType.APPLICATION_XML)
+    @Path("isRegistered/{email}/{password}")
+	public boolean isRegistered(@PathParam("email")String email, @PathParam("password")String password)
+	{
+		System.out.println("Method: isRegistered");//test
+		
+//		EntityManagerFactory factory = Persistence.createEntityManagerFactory("nutrition_service");
+//	    entityManager = factory.createEntityManager();
+	    
+		try
+		{
+			//TO TRY
+			//Query q = em.createQuery("select u from User u where u.email = ?1 and u.password = ?2");
+			//q.setParameter(1, email);
+			//q.setParameter(2, password);
+			
+			Query q = entityManager.createQuery("select u from User u where u.email ='"+email+"' and u.password = '"+password+"'");
+			User user = (User) q.getSingleResult();
+			
+			if(user.getEmail().equals(email) && user.getPassword().equals(password))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
+	
+	@PUT
+    @Consumes(MediaType.APPLICATION_XML)
+	public boolean updateProfile(User user)
+	{
+		System.out.println("Method: updateProfile");//test
+		try
+		{
+			entityManager.merge(user);
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+		
+		return true;
+	}
+	
+	//For the statistic part...
+	//saveData
+	//getData
+	
+	@POST
+    @Consumes(MediaType.APPLICATION_XML)
+	public boolean registerNewUser(User user)
+	{
+		System.out.println("Method: registerNewUser");//test
+		
+		//TODO VERIFY THAT THE USER DOESN'T EXIST
+		
+		try
+		{
+			entityManager.persist(user);
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public User getUserById(int id)
+	{
+		return (User) entityManager.find(User.class, id);
+	}
+	
+	public Language getLanguageById(int id)
+	{
+		return (Language) entityManager.find(Language.class, id);
+	}
+	
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from UserServiceService WSDL service -->
+
+  <service name="UserService" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://impl"/>
+      <parameter name="wsdlServiceElement" value="UserServiceService"/>
+      <parameter name="schemaQualified" value="http://entities.business.model,http://xml.apache.org/xml-soap,http://impl"/>
+      <parameter name="wsdlServicePort" value="UserService"/>
+      <parameter name="className" value="impl.UserService"/>
+      <parameter name="wsdlPortType" value="UserService"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://impl" xmlns:retNS="http://impl" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="isRegistered" qname="operNS:isRegistered" returnQName="retNS:isRegisteredReturn" returnType="rtns:boolean" soapAction="">
+        <parameter xmlns:pns="http://impl" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:email" type="tns:string"/>
+        <parameter xmlns:pns="http://impl" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:password" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://impl" xmlns:retNS="http://impl" xmlns:rtns="http://entities.business.model" name="getLanguageById" qname="operNS:getLanguageById" returnQName="retNS:getLanguageByIdReturn" returnType="rtns:Language" soapAction="">
+        <parameter xmlns:pns="http://impl" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:id" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://impl" xmlns:retNS="http://impl" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="registerNewUser" qname="operNS:registerNewUser" returnQName="retNS:registerNewUserReturn" returnType="rtns:boolean" soapAction="">
+        <parameter xmlns:pns="http://impl" xmlns:tns="http://entities.business.model" qname="pns:user" type="tns:User"/>
+      </operation>
+      <operation xmlns:operNS="http://impl" xmlns:retNS="http://impl" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="hello" qname="operNS:hello" returnQName="retNS:helloReturn" returnType="rtns:string" soapAction="">
+      </operation>
+      <operation xmlns:operNS="http://impl" xmlns:retNS="http://impl" xmlns:rtns="http://entities.business.model" name="getUserById" qname="operNS:getUserById" returnQName="retNS:getUserByIdReturn" returnType="rtns:User" soapAction="">
+        <parameter xmlns:pns="http://impl" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:id" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://impl" xmlns:retNS="http://impl" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="updateProfile" qname="operNS:updateProfile" returnQName="retNS:updateProfileReturn" returnType="rtns:boolean" soapAction="">
+        <parameter xmlns:pns="http://impl" xmlns:tns="http://entities.business.model" qname="pns:user" type="tns:User"/>
+      </operation>
+      <parameter name="allowedMethods" value="hello getLanguageById updateProfile getUserById isRegistered registerNewUser"/>
+
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;hello" type="java:impl.Hello" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;registerNewUser" type="java:impl.RegisterNewUser" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <arrayMapping xmlns:ns="http://impl" xmlns:cmp-ns="http://www.w3.org/2001/XMLSchema" qname="ns:ArrayOf_xsd_anyType" type="java:java.lang.Object[]" innerType="cmp-ns:anyType" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;isRegisteredResponse" type="java:impl.IsRegisteredResponse" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;updateProfile" type="java:impl.UpdateProfile" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://entities.business.model" qname="ns:Language" type="java:model.business.entities.Language" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;isRegistered" type="java:impl.IsRegistered" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;registerNewUserResponse" type="java:impl.RegisterNewUserResponse" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;getLanguageById" type="java:impl.GetLanguageById" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://entities.business.model" qname="ns:User" type="java:model.business.entities.User" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;updateProfileResponse" type="java:impl.UpdateProfileResponse" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;getUserById" type="java:impl.GetUserById" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;getLanguageByIdResponse" type="java:impl.GetLanguageByIdResponse" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;getUserByIdResponse" type="java:impl.GetUserByIdResponse" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://impl" qname="ns:&gt;helloResponse" type="java:impl.HelloResponse" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+  </service>
+</deployment>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <monitors>
-  <monitor port="14260" portId="1" serverId="Tomcat v6.0 Server at localhost" started="true"/>
-  <monitor port="7929" portId="0" serverId="Tomcat v6.0 Server at localhost" started="true"/>
+  <monitor port="14260" portId="1" serverId="Tomcat v6.0 Server at localhost" started="false"/>
+  <monitor port="7929" portId="0" serverId="Tomcat v6.0 Server at localhost" started="false"/>
+  <monitor port="8006" portId="server" serverId="Tomcat v6.0 Server at localhost" started="true"/>
+  <monitor port="8081" portId="server" serverId="GlassFish Server Open Source Edition 3 (Java EE 6) at localhost" started="true"/>
 </monitors>

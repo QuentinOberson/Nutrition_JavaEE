@@ -52,7 +52,7 @@ public class UserServiceTest {
 		user = new User();
 		response = service.updateProfile(user);
 		
-		Assert.assertEquals(false, response);
+		Assert.assertEquals(true, response);//Can update even if user is not inside the database
 	}
 
 	@Test
@@ -61,6 +61,7 @@ public class UserServiceTest {
 		UserService service = new UserService();
 		
 		//Not existing user
+		//WARNING! Be sure that the database doesn't contain this user, otherwise the test will fail!
 		User user = new User();
 		user.setFirstname("test");
 		user.setLastname("test");
@@ -72,6 +73,8 @@ public class UserServiceTest {
 		boolean response = service.registerNewUser(user);
 		
 		Assert.assertEquals(true, response);
+		
+		
 		//Existing user
 		user = service.getUserById(9);
 		

@@ -1497,3 +1497,1458 @@ Caused by: java.lang.ClassCastException: java.lang.Object cannot be cast to org.
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
 	... 24 more
+!SESSION 2013-11-30 17:05:37.941 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:15:51.961
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:16:18.963
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:17:17.581
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:17:22.651
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-11-30 17:20:35.545
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2013-11-30 17:20:35.547
+!MESSAGE Timed out while retrieving the attached javadoc for String [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]] 
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:24:56.980
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:25:22.502
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-30 17:42:42.181
+!MESSAGE Invalid ZIP archive: C:\xampp\Tomcat 6.0\lib\tomcat-i18n-fr.jar
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:42:48.146
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:43:35.608
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.osgi 2 1 2013-11-30 17:50:12.166
+!MESSAGE NLS unused message: CacheManager_CannotLoadNonUrlLocation in: org.eclipse.equinox.internal.p2.repository.messages
+!SESSION 2013-11-30 17:50:25.355 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:51:55.396
+!MESSAGE GlassFish: derbyJar =C:\glassfish3\glassfish
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:51:55.400
+!MESSAGE GlassFish: derbyJar =C:\glassfish3\glassfish
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:51:59.182
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:51:59.183
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:52:00.696
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:52:00.696
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:54:10.754
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:54:10.754
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:54:10.755
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:54:10.756
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:55:13.305
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:13.306
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:13.434
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:13.434
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:55:19.679
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:19.679
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:19.681
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:19.681
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:55:56.321
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:56.321
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:56.332
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:55:56.332
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-11-30 17:56:12.254
+!MESSAGE Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 17:56:23.718
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:56:23.718
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:56:23.719
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 17:56:23.719
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:43:32.822
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:43:32.822
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:43:32.844
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:43:32.845
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:43:33.081
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:43:33.081
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:43:33.082
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:43:33.083
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:46:22.272
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:46:22.272
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:46:22.277
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:46:22.277
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2b897c17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@58063956,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4f31e055,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@28322b2e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@537f1511,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@32a47980,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3c4039ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7dddc564,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c9a508d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@292575ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@571e67a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d26eff9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7754cb2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1a60540d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5fe7348f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@43c0878c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@442bc979,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@70ed6687,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.148
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16b849e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2ce3f891,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.148
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cfba6b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3d91e793,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.148
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4d7cbd54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@daa1b98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-30 18:47:36.148
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3871fd8a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@499ec83d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:45.120
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:45.120
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:45.122
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:45.122
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:52.508
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:52.508
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:53.327
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:53.329
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:53.330
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:49:53.336
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:53.336
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:53.337
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:53.337
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:53.337
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:53.902
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:53.902
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:54.338
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:54.339
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:54.339
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:49:54.343
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:54.343
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:54.343
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:54.343
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:54.343
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:54.596
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:54.596
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:55.018
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:49:55.019
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:55.019
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:49:55.021
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:55.021
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:55.021
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:55.021
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:49:55.021
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:52:34.390
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:34.391
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:52:34.924
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:52:34.925
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:34.926
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:52:34.929
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:34.929
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:34.930
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:34.930
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:34.930
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:52:47.455
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:47.455
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:52:47.999
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:52:48.000
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:48.000
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:52:48.002
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:48.002
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:48.003
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:48.003
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:52:48.003
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:53:37.658
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:53:37.658
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:53:38.234
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:53:38.235
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:53:38.235
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:53:38.237
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:53:38.237
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:53:38.237
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:53:38.237
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:53:38.238
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:54:45.087
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:54:45.087
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:54:45.559
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:54:45.560
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:54:45.560
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-11-30 18:54:45.563
+!MESSAGE Publishing failed
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:54:45.563
+!MESSAGE cannot Deploy nutrition_service
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:54:45.563
+!MESSAGE Deployment Error for module: nutrition_service: Error occurred during deployment: Exception while preparing the app : Unable to load the EJB module. DeploymentContext does not contain any EJB. Check the archive to ensure correct packaging for C:\glassfish3\glassfish\domains\domain1\eclipseApps\nutrition_service.
+If you use EJB component annotations to define the EJB, and an ejb or web deployment descriptor is also used, please make sure that the deployment descriptor references a Java EE 5 or higher version schema, and that the metadata-complete attribute is not set to true, so the component annotations can be processed as expected. Please see server.log for more details.
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:54:45.563
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:54:45.563
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:55:23.311
+!MESSAGE GlassFish: error 
+!STACK 0
+java.io.IOException: invalid header field
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.ServerCommand.readResponse(ServerCommand.java:183)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.handleReceive(CommandRunner.java:757)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:639)
+	at com.sun.enterprise.jst.server.sunappsrv.commands.CommandRunner.call(CommandRunner.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:55:23.312
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:55:23.312
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:55:23.322
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: 
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:55:23.323
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: 
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2013-11-30 18:55:23.377
+!MESSAGE GlassFish: deploy is failing=
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: Error occurred during deployment: Exception while deploying the app [nutrition_serviceEAR] : Application [nutrition_serviceEAR] contains no valid components. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:55:23.377
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: Error occurred during deployment: Exception while deploying the app [nutrition_serviceEAR] : Application [nutrition_serviceEAR] contains no valid components. Please see server.log for more details.
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:55:23.380
+!MESSAGE cannot Deploy nutrition_serviceEAR
+!STACK 1
+org.eclipse.core.runtime.CoreException: Deployment Error for module: nutrition_serviceEAR: Error occurred during deployment: Exception while deploying the app [nutrition_serviceEAR] : Application [nutrition_serviceEAR] contains no valid components. Please see server.log for more details.
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishDeployedDirectory(SunAppServerBehaviour.java:859)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModuleForGlassFishV3(SunAppServerBehaviour.java:629)
+	at com.sun.enterprise.jst.server.sunappsrv.SunAppServerBehaviour.publishModule(SunAppServerBehaviour.java:277)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 oracle.eclipse.tools.glassfish 4 0 2013-11-30 18:55:23.381
+!MESSAGE Deployment Error for module: nutrition_serviceEAR: Error occurred during deployment: Exception while deploying the app [nutrition_serviceEAR] : Application [nutrition_serviceEAR] contains no valid components. Please see server.log for more details.
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-30 19:10:11.321
+!MESSAGE Invalid ZIP archive: C:\xampp\Tomcat 6.0\lib\tomcat-i18n-fr.jar
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-30 19:18:35.804
+!MESSAGE Deadlock detected. All locks owned by thread Worker-43 will be suspended.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.jobs.DeadlockDetector.reportDeadlock(DeadlockDetector.java:599)
+	at org.eclipse.core.internal.jobs.DeadlockDetector.lockWaitStart(DeadlockDetector.java:403)
+	at org.eclipse.core.internal.jobs.LockManager.addLockWaitThread(LockManager.java:158)
+	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:174)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:110)
+	at org.eclipse.wst.common.internal.emf.ResourceSynchronizedIsLoadingAdapter.waitForResourceToLoad(ResourceSynchronizedIsLoadingAdapter.java:71)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.waitForResourceToLoadIfNecessary(CompatibilityXMIResourceImpl.java:382)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.isLoaded(CompatibilityXMIResourceImpl.java:373)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.removeResource(ModuleStructuralModel.java:104)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.removeResources(EditModel.java:833)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.resourceChanged(EditModel.java:786)
+	at org.eclipse.wst.common.internal.emfworkbench.EMFWorkbenchContext.notifyEditModels(EMFWorkbenchContext.java:278)
+	at org.eclipse.wst.common.internal.emfworkbench.EMFWorkbenchContext.removedResource(EMFWorkbenchContext.java:341)
+	at org.eclipse.wst.common.internal.emfworkbench.EMFWorkbenchContext$ResourceSetListener.notifyChanged(EMFWorkbenchContext.java:312)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.eNotify(ProjectResourceSetImpl.java:1274)
+	at org.eclipse.emf.common.notify.impl.NotificationChainImpl.dispatch(NotificationChainImpl.java:98)
+	at org.eclipse.emf.common.notify.impl.NotificationChainImpl.dispatch(NotificationChainImpl.java:86)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:718)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl$SynchronizedResourcesEList.remove(ProjectResourceSetImpl.java:497)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:460)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl$SynchronizedResourcesEList.remove(ProjectResourceSetImpl.java:487)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.processDeferredRemovedResources(ResourceSetWorkbenchEditSynchronizer.java:155)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.processDeferredResources(ResourceSetWorkbenchEditSynchronizer.java:231)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:141)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:557)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2013-11-30 19:18:35.804
+!MESSAGE Thread ModalContext has locks: R/, F/Web_Service_TestEAR/.settings, OrderedLock (0), OrderedLock (83) and is waiting for lock OrderedLock (84)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2013-11-30 19:18:35.804
+!MESSAGE Thread Worker-43 has locks: OrderedLock (84) and is waiting for lock F/Web_Service_TestEAR/.settings
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-30 19:18:36.186
+!MESSAGE An internal error occurred during: "Loading descriptor for Web_Service_TestEAR.".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:159)
+	at org.eclipse.jst.jee.model.internal.EAR5ModelProvider.getModelObject(EAR5ModelProvider.java:53)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:215)
+	at org.eclipse.jst.jee.ui.internal.navigator.Ear5ContentProvider.getNewContentProviderInstance(Ear5ContentProvider.java:152)
+	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

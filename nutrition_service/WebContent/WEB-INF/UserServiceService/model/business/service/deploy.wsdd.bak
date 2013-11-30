@@ -24,28 +24,34 @@
         <parameter qname="pns:email" xmlns:pns="http://service.business.model" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
         <parameter qname="pns:password" xmlns:pns="http://service.business.model" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
-      <operation name="updateProfile" qname="operNS:updateProfile" xmlns:operNS="http://service.business.model" returnQName="retNS:updateProfileReturn" xmlns:retNS="http://service.business.model" returnType="rtns:boolean" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
-        <parameter qname="pns:user" xmlns:pns="http://service.business.model" type="tns:User" xmlns:tns="http://entities.business.model"/>
-      </operation>
-      <operation name="hello" qname="operNS:hello" xmlns:operNS="http://service.business.model" returnQName="retNS:helloReturn" xmlns:retNS="http://service.business.model" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      <operation name="getLanguageById" qname="operNS:getLanguageById" xmlns:operNS="http://service.business.model" returnQName="retNS:getLanguageByIdReturn" xmlns:retNS="http://service.business.model" returnType="rtns:Language" xmlns:rtns="http://entities.business.model" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://service.business.model" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
       <operation name="registerNewUser" qname="operNS:registerNewUser" xmlns:operNS="http://service.business.model" returnQName="retNS:registerNewUserReturn" xmlns:retNS="http://service.business.model" returnType="rtns:boolean" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
         <parameter qname="pns:user" xmlns:pns="http://service.business.model" type="tns:User" xmlns:tns="http://entities.business.model"/>
       </operation>
-      <parameter name="allowedMethods" value="hello updateProfile isRegistered registerNewUser"/>
+      <operation name="hello" qname="operNS:hello" xmlns:operNS="http://service.business.model" returnQName="retNS:helloReturn" xmlns:retNS="http://service.business.model" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <operation name="getUserById" qname="operNS:getUserById" xmlns:operNS="http://service.business.model" returnQName="retNS:getUserByIdReturn" xmlns:retNS="http://service.business.model" returnType="rtns:User" xmlns:rtns="http://entities.business.model" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://service.business.model" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="updateProfile" qname="operNS:updateProfile" xmlns:operNS="http://service.business.model" returnQName="retNS:updateProfileReturn" xmlns:retNS="http://service.business.model" returnType="rtns:boolean" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user" xmlns:pns="http://service.business.model" type="tns:User" xmlns:tns="http://entities.business.model"/>
+      </operation>
+      <parameter name="allowedMethods" value="hello getLanguageById updateProfile getUserById isRegistered registerNewUser"/>
 
       <typeMapping
         xmlns:ns="http://service.business.model"
-        qname="ns:>registerNewUser"
-        type="java:model.business.service.RegisterNewUser"
+        qname="ns:>hello"
+        type="java:model.business.service.Hello"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
       />
       <typeMapping
         xmlns:ns="http://service.business.model"
-        qname="ns:>hello"
-        type="java:model.business.service.Hello"
+        qname="ns:>registerNewUser"
+        type="java:model.business.service.RegisterNewUser"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
@@ -98,6 +104,14 @@
         encodingStyle=""
       />
       <typeMapping
+        xmlns:ns="http://service.business.model"
+        qname="ns:>getLanguageById"
+        type="java:model.business.service.GetLanguageById"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
         xmlns:ns="http://entities.business.model"
         qname="ns:User"
         type="java:model.business.entities.User"
@@ -109,6 +123,30 @@
         xmlns:ns="http://service.business.model"
         qname="ns:>updateProfileResponse"
         type="java:model.business.service.UpdateProfileResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://service.business.model"
+        qname="ns:>getLanguageByIdResponse"
+        type="java:model.business.service.GetLanguageByIdResponse"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://service.business.model"
+        qname="ns:>getUserById"
+        type="java:model.business.service.GetUserById"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://service.business.model"
+        qname="ns:>getUserByIdResponse"
+        type="java:model.business.service.GetUserByIdResponse"
         serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
         deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
         encodingStyle=""
